@@ -30,13 +30,13 @@ COPY poetry.lock pyproject.toml ./
 
 RUN poetry install --no-root
 
-FROM python-base as production
+FROM python-base AS production
 
 COPY --from=python-base $PYSETUP_PATH $PYSETUP_PATH
 
 WORKDIR /app
 
+## TODO: can write this better
 COPY . .
 
-#CMD ["sleep", "10000"]
 ENTRYPOINT ["bash","entrypoint.sh"]
