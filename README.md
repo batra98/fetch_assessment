@@ -84,10 +84,6 @@ docker run -p 8000:8000 batra98/receipt-predictor:latest
 - **Docker**: For containerization and easy deployment.
 - **Poetry**: For dependency management.
 
-```
-````
-```
-```
 
 ## API Endpoints
 
