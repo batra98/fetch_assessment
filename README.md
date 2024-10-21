@@ -40,9 +40,9 @@ You can run this project in two ways:
 ### Using Poetry
 
 0. Activate poetry shell
-```bash
-poetry shell
-```
+   ```bash
+   poetry shell
+   ```
 1. Install the dependencies using Poetry:
    ```bash
    poetry install
@@ -85,8 +85,9 @@ docker run -p 8000:8000 batra98/receipt-predictor:latest
 - **Poetry**: For dependency management.
 
 ```
-
----
+````
+```
+```
 
 ## API Endpoints
 
