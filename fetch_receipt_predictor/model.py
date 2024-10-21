@@ -53,5 +53,5 @@ def train_model(data_path: str, model_save_path: str):
         loss.backward()
         optimizer.step()
     
-    torch.save(model.state_dict(), model_save_path)
+    #torch.save(model.state_dict(), model_save_path)
     return model, scaler_X, scaler_y
