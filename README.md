@@ -66,7 +66,7 @@ Alternatively, you can use Docker to build and run the image:
    docker run -p 8000:8000 fetch-receipt-predictor
    ```
 
-**Note**: I have also pushed a pre-built Docker image to Docker Hub. You can pull it directly instead of building it locally:
+**Note**: I have also pushed a pre-built Docker image to Docker Hub. You can pull it directly instead of building it locally, (but the image is too big ~12GB due to the torch dependency):
 ```bash
 docker pull batra98/receipt-predictor:latest
 docker run -p 8000:8000 batra98/receipt-predictor:latest
